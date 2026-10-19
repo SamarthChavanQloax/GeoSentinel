@@ -8,10 +8,7 @@ import java.util.UUID;
 @Table(name = "reports")
 public class Report {
 
-    @Id
-    @Column(length = 64)
-    private String id;
-
+   
     @Column(name = "analysis_run_id", nullable = false, length = 64)
     private String analysisRunId;
 
